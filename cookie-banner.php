@@ -4,7 +4,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Cookies</h1>
-                <img src="icons/cookies.svg" alt="Cookies" id="cookieBannerSymbol" height="48px"
+                <img src="icons/cookies.svg" alt="Cookies" id="cookieBannerSymbol" height="48" width="48"
                      onload="SVGInject(this)">
             </div>
             <div class="modal-body">
@@ -31,6 +31,9 @@
                         </p>
                     </li>
                 </ul>
+                <br>
+                Sollten sie ihre Einstellungen ändern wollen, können sie dies jederzeit über den Cookie Button in der
+                Fußzeile erledigen. <br>
             </div>
             <div class="modal-footer">
                 <button id="btnCookies" type="button" class="btn btn-primary" data-bs-dismiss="modal">Auswahl

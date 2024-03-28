@@ -34,9 +34,10 @@ body {
 
 #footer-navbar {
     color: white;
-    padding: 2em;
-    margin-bottom: 0 !important;
-    margin-top: auto !important;
+    margin: auto 0 0 !important;
+    max-width: none;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .feature-icon {
@@ -52,10 +53,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-}
-
-#linkImpressum {
-    color: white;
 }
 
 #linkStartseite {

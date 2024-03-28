@@ -17,8 +17,8 @@
 
 <div class="container-fluid" id="container-main">
     <div class="container text-center">
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="container col-xxl-8 px-4">
+            <div class="row flex-lg-row-reverse align-items-center g-5">
                 <div class="col-10 col-sm-8 col-lg-6">
                     <img src="images/me.jpg" class="d-block mx-lg-auto img-fluid" alt="me" width="700"
                          height="500" loading="lazy">
@@ -35,23 +35,35 @@
                     </div>
                 </div>
             </div>
-            <div class="container px-4 py-5" id="featured-3">
+
+            <div class="container px-4 py-5">
                 <h2 class="pb-2 border-bottom">My Journey</h2>
-                <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
-                    <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                            <img src="icons/backpack.svg" alt="Backpack" height="40px" width="40px"
-                                 onload="SVGInject(this)">
+                <div class="row g-4 align-items-center">
+                    <div class="col">
+                        <div class="col p-3">
+                            <span class="fs-2 text-body-emphasis">2017 - 2021</span>
                         </div>
-                        <h3 class="fs-2 text-body-emphasis">MS Waizenkirchen</h3>
+                        <div class="feature col">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                                <img src="icons/backpack.svg" alt="Backpack" height="40px" width="40px"
+                                     onload="SVGInject(this)">
+                            </div>
+                            <h3 class="fs-2 text-body-emphasis">MS Waizenkirchen</h3>
+                        </div>
                     </div>
-                    <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                            <img src="icons/laptop.svg" alt="Laptop" height="40px" width="40px"
-                                 onload="SVGInject(this)">
+
+                    <div class="col">
+                        <div class="col p-3">
+                            <span class="fs-2 text-body-emphasis">ab 2021</span>
                         </div>
-                        <h3 class="fs-2 text-body-emphasis">HTL Grieskirchen</h3>
-                        <p>Zweig Informatik</p>
+                        <div class="feature col">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                                <img src="icons/laptop.svg" alt="Laptop" height="40px" width="40px"
+                                     onload="SVGInject(this)">
+                            </div>
+                            <h3 class="fs-2 text-body-emphasis">HTL Grieskirchen</h3>
+                            <p>Zweig Informatik</p>
+                        </div>
                     </div>
                 </div>
             </div>
