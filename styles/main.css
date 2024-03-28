@@ -1,0 +1,241 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+body {
+    font-family: Raleway, sans-serif !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header-navbar,
+#footer-navbar {
+    background-color: #111f44 !important;
+}
+
+#header-navbar {
+    margin-bottom: 10px;
+}
+
+[data-bs-theme="light"] svg {
+    fill: black;
+}
+
+[data-bs-theme="dark"] svg {
+    fill: white;
+}
+
+#footer-navbar {
+    color: white;
+    padding: 2em;
+    margin-bottom: 0 !important;
+    margin-top: auto !important;
+}
+
+.feature-icon {
+    background: transparent !important;
+}
+
+.row {
+    flex-direction: column;
+    margin: 3px;
+}
+
+#slider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#linkImpressum {
+    color: white;
+}
+
+#linkStartseite {
+    color: white;
+}
+
+#startseiteText1 {
+    color: #0b866a;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+#startseiteText2 {
+    font-size: 50px;
+    text-align: left;
+}
+
+#startseiteText3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+#kontaktÜberschrift {
+    text-align: center;
+    font-size: 45px;
+}
+
+#kontaktText {
+    text-align: center;
+    font-size: 23px;
+}
+
+#errorÜberschrift {
+    text-align: center;
+    font-size: 45px;
+}
+
+#errorText {
+    text-align: center;
+    font-size: 23px;
+}
+
+#impressumÜberschrift {
+    text-align: center;
+    font-size: 45px;
+}
+
+#impressumText {
+    text-align: center;
+    font-size: 23px;
+}
+
+#datenschutzerklärungÜberschrift {
+    text-align: center;
+    font-size: 25px;
+}
+
+#datenschutzerklärungUnterüberschrift {
+    text-align: center;
+    font-size: 20px;
+}
+
+#datenschutzerklärungAktuelleFassung {
+    text-align: left;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media (min-width: 576px) {
+    .row {
+        flex-direction: column;
+        margin: 3px;
+    }
+
+    #datenschutzerklärungÜberschrift {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #datenschutzerklärungUnterüberschrift {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    #datenschutzerklärungAktuelleFassung {
+        text-align: left;
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .row {
+        flex-direction: row;
+        margin: 3px;
+    }
+
+    #datenschutzerklärungÜberschrift {
+        text-align: center;
+        font-size: 44px;
+    }
+
+    #datenschutzerklärungUnterüberschrift {
+        text-align: center;
+        font-size: 29px;
+    }
+
+    #datenschutzerklärungAktuelleFassung {
+        text-align: left;
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 992px) {
+    .row {
+        flex-direction: row;
+        margin: 3px;
+    }
+
+    #datenschutzerklärungÜberschrift {
+        text-align: center;
+        font-size: 47px;
+    }
+
+    #datenschutzerklärungUnterüberschrift {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    #datenschutzerklärungAktuelleFassung {
+        text-align: left;
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .row {
+        flex-direction: row;
+        margin: 3px;
+    }
+
+    #datenschutzerklärungÜberschrift {
+        text-align: center;
+        font-size: 59px;
+    }
+
+    #datenschutzerklärungUnterüberschrift {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #datenschutzerklärungAktuelleFassung {
+        text-align: left;
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .row {
+        flex-direction: row;
+        margin: 3px;
+    }
+
+    #datenschutzerklärungÜberschrift {
+        text-align: center;
+        font-size: 73px;
+    }
+
+    #datenschutzerklärungUnterüberschrift {
+        text-align: center;
+        font-size: 38px;
+    }
+
+    #datenschutzerklärungAktuelleFassung {
+        text-align: left;
+        font-size: 29px;
+    }
+}
