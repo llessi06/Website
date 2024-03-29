@@ -1,5 +1,5 @@
 <header data-bs-theme="dark">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="header-navbar">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary" id="header-navbar">
         <div class="container-fluid" id="container-top">
             <a class="navbar-brand" href="/">
                 <img id="logo" src="icons/logo.svg" alt="Logo" height="30px" onload="SVGInject(this)">
