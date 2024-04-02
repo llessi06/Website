@@ -13,6 +13,9 @@
                          onload="SVGInject(this)">
                 </div>
             </li>
+            <li class="nav-item"><a class="nav-link px-2 text-muted" href="https://www.linkedin.com/in/lukas-lesslhumer" target="_blank">
+                    <img height="24" width="24" class="bi" src="icons/linkedin.svg" alt="Linked In" onload="SVGInject(this)">
+                </a></li>
             <li class="nav-item"><a class="nav-link px-2 text-muted" href="https://github.com/llessi06" target="_blank">
                     <img height="24" width="24" class="bi" src="icons/github.svg" alt="GitHub" onload="SVGInject(this)">
                 </a></li>
